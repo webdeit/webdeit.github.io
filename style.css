@@ -1,7 +1,7 @@
-body {
+.body {
     background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(office2.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain, cover;
 }
 
 .form-control {
