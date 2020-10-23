@@ -73,6 +73,17 @@
     font-size: larger;
 }
 
+.container {
+    margin: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
 .topnav {
     overflow: hidden;
     display: inline;
