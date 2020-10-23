@@ -4,14 +4,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {margin:0;font-family:Arial;
-background-image: url("office2.jpg");
+body {margin:0;font-family:Arial
+height: 100%;
 }
 
 .topnav {
   overflow: hidden;
   
  
+}
+.bg {
+  /* The image used */
+  background-image: url("office2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .topnav a {
@@ -114,7 +126,7 @@ background-image: url("office2.jpg");
 </style>
 </head>
 <body>
-
+<div class="bg"></div>
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
