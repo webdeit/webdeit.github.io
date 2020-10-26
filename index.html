@@ -12,7 +12,7 @@ font-weight:bolder;
 font-size: 40px;
 
   /* Full height */
-  height: 50cm;
+  height: 20cm;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -124,6 +124,31 @@ P.blocktext {
         
       
       }
+      * {
+  box-sizing: border-box;
+  
+ bottom:0px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  font-size: 15px;
+    display:block;
+  bottom: 0;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+ 
+}
 
 </style>
         <div class="topnav" id="myTopnav">
@@ -150,6 +175,36 @@ P.blocktext {
 <a href="aboutus.html" class="button">Learn more</a>
 </div>
 
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1a0000;">
+    <h2>Research Areas</h2>
+    <p>Technology<p>
+    <p>Machine Learning<p>
+    <p>Artificial Intelligence<p>
+    <p>Augmented reality<p>
+  </div>
+  <div class="column" style="background-color:#1a0000;">
+    <h2>Disciplines</h2>
+    <p>Humanities</p>
+    <p>Engineering</p>
+     <p>Economics</p>
+        <p>Machine Learning<p>
+  </div>
+  <div class="column" style="background-color:#1a0000;">
+    <h2>Community</h2>
+    <p>Writers</p>
+    <p>Researchers</p>
+       <p>Machine Learning<p>
+         <p>Economics</p>
+  </div>
+   <div class="column" style="background-color:#1a0000;">
+    <h2>Contacts</h2>
+    <p>Facebook</p>
+    <p>Instagram</p>
+    <p>Twitter</p>
+    <p> LinkedIn</p>
+  </div>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
